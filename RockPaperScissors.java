@@ -57,7 +57,9 @@ public class RockPaperScissors {
             }
         } else {
             System.out.println("You have entered invalid number of plays!");
+            System.exit(0);
         }
+        
     }
 
     public static String Computerround() {
