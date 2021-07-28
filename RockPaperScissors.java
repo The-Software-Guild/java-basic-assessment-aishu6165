@@ -14,7 +14,6 @@ import java.util.Random;
 public class RockPaperScissors {
     public static void main(String[] args) {
         wholegame();
-       // System.out.print("");
         System.out.println("Do you want to play again? Please enter yes  or no");
         Scanner Userinput = new Scanner(System.in);
         String useragain= Userinput.nextLine();
